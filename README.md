@@ -4,6 +4,15 @@
 
 [Enrol at $9.9 valid for 5 days](https://www.udemy.com/course/redux-core-react-redux-redux-toolkit-complete-course/?couponCode=LUNCHED)
 
+## PROJECTS LIVE PREVIEW
+
+[Live preview all the projects you will be building](https://inovotekacademy.com/page/react-redux-course-projects)
+
+## DOWNLOAD ALL THE PDFs GUIDE
+
+- [React Redux PDF Guide](https://inovotekacademy.com/products/6)
+- [React Toolkit PDF Guide](https://inovotekacademy.com/products/5)
+
 Redux is a popular library for managing state in frontend applications. As a front-end or full-stack developer, it is important to be skilled in using Redux. Thanks for everything, Redux!
 
 This course contains everything you need to get started with Redux and Redux Toolkit. It includes all the necessary tools and packages to get you up and running quickly. With this course, you'll be able to learn Redux and Redux Toolkit in no time.
