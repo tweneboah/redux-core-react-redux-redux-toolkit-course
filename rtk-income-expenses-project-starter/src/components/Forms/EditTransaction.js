@@ -20,16 +20,15 @@ const EditTransaction = () => {
   //---onsubmit handler----
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(transaction);
   };
   return (
-    <section className="py-16 xl:pb-56 bg-white overflow-hidden">
+    <section className="py-16 overflow-hidden bg-white xl:pb-56">
       <div className="container px-4 mx-auto">
-        <div className="text-center max-w-md mx-auto">
-          <h2 className="mb-4 text-4xl md:text-5xl text-center font-bold font-heading tracking-px-n leading-tight">
+        <div className="max-w-md mx-auto text-center">
+          <h2 className="mb-4 text-4xl font-bold leading-tight text-center md:text-5xl font-heading tracking-px-n">
             Edit Transaction
           </h2>
-          <p className="mb-12 font-medium text-lg text-gray-600 leading-normal">
+          <p className="mb-12 text-lg font-medium leading-normal text-gray-600">
             You are editing transaction to .....
           </p>
           <form onSubmit={onSubmit}>
@@ -100,13 +99,13 @@ const EditTransaction = () => {
                   rows={4}
                   name="notes"
                   id="comment"
-                  className="block p-2  w-full border-2 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                  className="block w-full p-2 border-2 border-gray-300 rounded-md shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                 />
               </div>
             </div>
             <button
               type="submit"
-              className="mb-8 py-4 px-9 w-full text-white font-semibold border border-indigo-700 rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 bg-indigo-600 hover:bg-indigo-700 transition ease-in-out duration-200"
+              className="w-full py-4 mb-8 font-semibold text-white transition duration-200 ease-in-out bg-indigo-600 border border-indigo-700 px-9 rounded-xl shadow-4xl focus:ring focus:ring-indigo-300 hover:bg-indigo-700"
             >
               Create Transaction
             </button>
